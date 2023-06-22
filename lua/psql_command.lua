@@ -12,7 +12,7 @@ local function psql_command(connection, query)
   end
 
   local job = Job:new {
-    command = '/usr/bin/psql',
+    command = '/usr/local/bin/psql',
     args = { 
       '-h',
       host,
