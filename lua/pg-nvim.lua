@@ -26,7 +26,7 @@ end
 local local_state_dir = path.new(os.getenv('HOME'), '.local', 'state', 'pg.nvim').filename
 local settings = {
   state_dir = local_state_dir,
-  gpg_exe = '/usr/bin/gpg',
+  gpg_exe = '/usr/local/bin/gpg',
 }
 
 local connection_map = {}
